@@ -137,7 +137,7 @@ UserID YOB Gender Income HouseholdStatus EducationLevel Party ...
 CSCI 3320 Programming Project: What Makes People Happy Page 4
 And your code in function transform should in the following format.
 def transform(filename):
-# your code here
+
 return {_data_:data,_target_:target}
 You should return a dict data structure with ’data’ and ’target’ as the keys. And the value corresponding
 to ’data’ is a n ◊ m 2d array where n is the number of samples and m is the number of features; the value
@@ -193,7 +193,7 @@ step, the missing values are replaced by the statistic values for the correspond
 In summary, you need to finish the following missing data filling function fill_missing in preprocess.py.
 The function fill_missing has the following prototype.
 def fill_missing(X, strategy, isClassified):
-# your code here
+
 return X_full
 Here X is a n◊m 2d array where n is the number of samples and m is the number of features. The strategy
 we can choose includes ’mean’, ’median’ and ’mode’. isClassified is a boolean value indicate whether
